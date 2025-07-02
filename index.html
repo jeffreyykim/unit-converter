@@ -16,9 +16,25 @@
 <body>
     <header>
         <h1>Metric/Imperial Unit Conversion</h1>
-        <input type="text">
-        <button id="btn-el">Convert</button>
+        <input id="num-el" type="text">
+        <button onClick="length(), volume(), mass()" id="btn-el">Convert</button>
+        <p id="error-message">Please enter a valid number!</p>
     </header>
+    <div class="conversions">
+        <div class="length, border">
+            <h3>Length (Meter/Feet)</h3>
+            <p id="length-el">1 Meter = 3.28084 Feet | 1 Foot = 0.3048 Meters</p>
+        </div>
+        <div class="volume, border">
+            <h3>Volume (Liter/Gallons)</h3>
+            <p id="volume-el">1 Liter = 0.264172 Gallons | 1 Gallon = 3.78541 Liters</p>
+        </div>
+        <div class="mass, border">
+            <h3>Mass(Kilograms/Pounds)</h3>
+            <p id="mass-el">1 Kilogram = 2.20462 Pounds | 1 Pound = 0.453592 Kilograms</p>
+        </div>
+        
+    </div>
 
 
     <script src="scripts.js"></script>
