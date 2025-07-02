@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #6943FF;
+    font-size: 2rem;
+}
+
+header>input {
+    border-radius: 5px;
+    border: 5px solid #B295FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24.393px;
+    background-color: #6943FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    width: 30vw;
+}
+
+header>button {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    width: 10vw;
+    height: 5vh;
+    margin-bottom: 50px;
+}
